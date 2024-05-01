@@ -1,0 +1,11 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    unawaited_futures: warning
+    unused_import: error
+    unused_local_variable: warning
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false

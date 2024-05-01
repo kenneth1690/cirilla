@@ -1,0 +1,20 @@
+name: flutter_layout_grid_examples
+description: Examples for flutter_layout_grid.
+private: true
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_layout_grid:
+    path: ../
+  google_fonts: ^2.3.1
+
+dev_dependencies: 
+  flutter_lints: ^1.0.4
+
+flutter:
+  assets:
+    - lib/periodic_table_data.json
