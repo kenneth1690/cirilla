@@ -45,3 +45,4 @@ app.*.map.json
 /android/app/release
 /android/app/release.jks
 /android_old
+/lib/constants/chat_gpt.dart
